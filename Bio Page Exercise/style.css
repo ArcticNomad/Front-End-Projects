@@ -1,0 +1,39 @@
+body{
+    background-color:rgb(163, 54, 54);
+}
+
+.col h2{
+    color: rgb(227, 231, 3);
+}
+.card{
+    background-color:rgb(163, 54, 54); ;
+    border-color: rgb(163, 54, 54);
+}
+.card-title{
+    text-align: center;
+    font-family: fantasy ;
+    word-spacing:2px;
+    text-transform: uppercase;
+    color: rgb(227, 231, 3);
+}
+.col-lg-6 h2{   
+    font-family: fantasy ;
+    word-spacing:2px;
+    text-transform: uppercase;
+    color: rgb(227, 231, 3);
+}
+.col-lg-6 li{
+    font-family: fantasy ;
+    word-spacing:px;
+    color:white;
+}
+#btn{
+    width: 400px;
+}
+#pfp{
+    border-radius: 50%;
+    width: 350px; /* adjust size as needed */
+    height: 350px; /* adjust size as needed */
+    object-fit: cover;
+    margin: 20px auto 0 auto; /* center the image and add top margin */
+}
