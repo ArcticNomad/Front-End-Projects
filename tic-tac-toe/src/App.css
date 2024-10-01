@@ -1,0 +1,27 @@
+.Board
+{
+  height: 100vh;
+  display: flex;
+
+  justify-content: center;
+  align-items: center;
+}
+
+.square
+{
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+  align-items: center;
+
+  box-sizing: border-box;
+  height: 150px;
+  width: 150px;
+  background-color: coral;
+  border-radius: 10px;
+  border: solid 2px black;
+  margin: 5px;
+
+  font-size: 45px;
+  font-weight: bold;
+}
